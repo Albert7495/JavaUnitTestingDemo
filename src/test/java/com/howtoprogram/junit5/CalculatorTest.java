@@ -14,7 +14,7 @@ public class CalculatorTest {
 
 	 
 	@Test
-	  @DisplayName("SUMA")
+	  @DisplayName("Suma")
 	  void testSuma() {
 		calculator = new Calculator();	
 		int expected=5;
@@ -88,6 +88,8 @@ public class CalculatorTest {
 		int numbers= cal.Division(10,20);
 		
 		assertEquals(67,numbers);
+		
+
 	}
 
 }
